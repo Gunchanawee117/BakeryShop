@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "743186260255",
+    "project_id": "bakeryshopproject-f41f9",
+    "storage_bucket": "bakeryshopproject-f41f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743186260255:android:53c7eda425c2b8aeaad02a",
+        "android_client_info": {
+          "package_name": "com.example.bakeryshop_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743186260255-mravt6jve49r4qdvbu5e9dip1eolvnrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9aiZE904sco-Vi7pLOv8v55U2aFhEGEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743186260255-mravt6jve49r4qdvbu5e9dip1eolvnrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
