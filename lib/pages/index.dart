@@ -34,6 +34,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text(
           'BakeryShop',
           style: TextStyle(
@@ -64,16 +65,6 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           ),
         ],
         backgroundColor: Colors.amberAccent,
-        leading: IconButton(
-            onPressed: () {
-              Navigator.pop(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => Home(isLoggedIn: true),
-                ),
-              );
-            },
-            icon: Icon(Icons.bakery_dining_rounded)),
       ),
       body: Column(
         children: [

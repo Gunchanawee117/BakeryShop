@@ -121,6 +121,7 @@ class _CartPageState extends State<CartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text(
           'ตะกร้าสินค้า',
           style: TextStyle(
@@ -130,16 +131,6 @@ class _CartPageState extends State<CartPage> {
           ),
         ),
         backgroundColor: Colors.amberAccent,
-        leading: IconButton(
-            onPressed: () {
-              Navigator.pop(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => AdminShowProduct(isLoggedIn: true),
-                ),
-              );
-            },
-            icon: Icon(Icons.arrow_back_ios)),
       ),
       body: ListView.builder(
         itemCount: widget.cartItems.length,

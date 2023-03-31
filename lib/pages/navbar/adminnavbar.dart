@@ -1,4 +1,5 @@
 import 'package:bakeryshop_project/pages/addproduct.dart';
+import 'package:bakeryshop_project/pages/adminchecklist.dart';
 import 'package:bakeryshop_project/pages/adminindex.dart';
 import 'package:bakeryshop_project/pages/adminuserinfo.dart';
 import 'package:bakeryshop_project/pages/cart.dart';
@@ -20,7 +21,7 @@ class _AdminNavbarWidgetState extends State<AdminNavbarWidget> {
 
   List<Widget> _pages = [
     Homeadmin(isLoggedIn: true),
-    AddProductPage(),
+    AdminHistoryPage(),
     AdminUserInfoPage(),
   ];
 
@@ -79,7 +80,7 @@ class _AdminNavbarWidgetState extends State<AdminNavbarWidget> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             buildNavbarIcon(Icons.home, 0),
-            buildNavbarIcon(Icons.add, 1),
+            buildNavbarIcon(Icons.check, 1),
             buildNavbarIcon(Icons.person_outline, 2),
           ],
         ),

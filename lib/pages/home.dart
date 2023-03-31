@@ -36,7 +36,7 @@ class Homepage extends StatelessWidget {
                 Text(
                   "Welcome To BakeryShop",
                   style: TextStyle(
-                      fontSize: 30,
+                      fontSize: 22,
                       fontWeight: FontWeight.bold,
                       color: Color.fromARGB(255, 182, 117, 61)),
                 ),
@@ -46,14 +46,14 @@ class Homepage extends StatelessWidget {
                     Text(
                       "ขนมเค้กสดใหม่ อบใหม่ทุกวัน พร้อมเสริฟเพื่อคุณแล้ว",
                       style: TextStyle(
-                          fontSize: 17,
+                          fontSize: 12,
                           fontWeight: FontWeight.bold,
                           color: Colors.black54),
                     ),
                     Text(
                       "[ CakeBakery - เค้กเบเกอรี่ ]",
                       style: TextStyle(
-                          fontSize: 15,
+                          fontSize: 10,
                           fontWeight: FontWeight.bold,
                           color: Colors.black54),
                     ),
